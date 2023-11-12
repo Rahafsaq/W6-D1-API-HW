@@ -1,19 +1,3 @@
-// function myApi() {
-// 	fetch('https://rickandmortyapi.com/api/character', { method: 'get' })
-// 		.then((response) => response.json())
-// 		.then((data) => {
-// 			console.log(data);
-// 			for (let i = 0; i < data.results.length; i++) {
-// 				console.log(data.results[i]);
-// 				let text = document.getElementById('image-text');
-// 				let image = document.getElementById('images');
-
-// 				text.innerHTML = data.results[i].name;
-// 				image.innerHTML = data.results[i].image;
-// 			}
-// 		});
-// }
-
 function myApi() {
 	fetch('https://rickandmortyapi.com/api/character')
 		.then((response) => response.json())
