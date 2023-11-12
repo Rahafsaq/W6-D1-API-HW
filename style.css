@@ -1,4 +1,4 @@
-/* Extra small devices (phones, 600px and down) */
+/* 
 @media (max-width: 600px) {
 	#images {
 		width: 15vw;
@@ -17,7 +17,7 @@
 
 		
 	}
-}
+} */
 
 #images {
 	width: 15vw;
@@ -34,4 +34,17 @@
 	grid-template-columns: auto auto auto auto;
 
 	
+}
+
+@media (max-width: 600px) {
+  #images {
+    width: 80vw; 
+    height: auto;
+  }
+
+  .container {
+width: 90%;
+    margin-top: 10px; 
+    grid-template-columns: auto auto; 
+  }
 }
